@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons@v7.0.0/css/simple-icons.min.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <a href="#main"><img src="images/babar-logo.png" alt="Babar Logo" /></a>
+    </div>
+    <ul>
+      <li><a href="#main">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">More</a>
+        <div class="dropdown-content">
+          <a href="#certifications">Certifications</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </li>
+    </ul>
+
+    <a href="#contact" id="contactButton">
+      <button>Contact Me</button>
+    </a>
+
+    <button id="menuButton">
+      <i class="bx bx-menu"></i>
+    </button>
+  </nav>
+
+  <div class="main" id="main">
+    <div class="left">
+      <h5>
+        Hi, I am
+        <span class="name-wrapper"><span class="name1">Babar</span>
+          <span class="name2">Zaman</span></span>
+      </h5>
+
+      <h3>
+        Driving Excellence in <span>Construction Management</span> and
+        <span>Marine Engineering</span>
+      </h3>
+      <p>
+        I am a seasoned Civil and Marine Engineer with extensive experience in
+        construction, quality, and supervision of diverse projects. I have
+        successfully managed the construction of various marine structures,
+        bridges, railways, and infrastructure projects in the UAE. My
+        expertise ensures strict adherence to international standards,
+        focusing on quality, cost-effectiveness, timeliness, and safety.
+      </p>
+      <a href="https://drive.google.com/uc?export=download&id=1oreEiqNLBoflOwzri9oP2V6ZhZdvTOcq" target="_blank"
+        download>
+        <button>Download CV</button>
+      </a>
+    </div>
+    <div class="right">
+      <img src="images/babar-main.png" />
+      <div class="social-icons">
+        <a data-social="Facebook" style="--accent-color:#106bff;"
+          href="https://www.facebook.com/babar.zaman.79?mibextid=LQQJ4d" target="_blank">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <title>Facebook</title>
+            <path
+              d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" />
+          </svg>
+        </a>
+        <a data-social="LinkedIn" style="--accent-color:#0077B5;"
+          href="https://www.linkedin.com/in/babar-zaman-24a97855?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+          target="_blank">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <title>LinkedIn</title>
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          </svg>
+        </a>
+        <a data-social="Whatsapp" style="--accent-color:#25D366;" href="https://wa.me/971509312814" target="_blank">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <title>WhatsApp</title>
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="about" id="about">
+    <div class="header">
+      <h5>About</h5>
+      <h3>About Me</h3>
+    </div>
+    <div class="about-content">
+      <div class="left">
+        <img src="images/babar-about.png" alt="Babar Zaman" />
+      </div>
+      <div class="right">
+        <p>
+          <strong>Results-driven Civil and Marine Engineer</strong> with a
+          proven track record of successfully delivering complex projects in
+          the <strong>UAE.</strong> Over
+          <strong>8 years of experience</strong> in
+          <strong>construction, quality control, and supervision</strong>
+          across diverse sectors, including
+          <strong>marine structures, infrastructure, and oil & gas</strong>.
+          Demonstrated expertise in adhering to
+          <strong>international standards</strong> (CIRIA, CLI, AREMA, SHELL,
+          ADNOC) and delivering projects on time, within budget, and with
+          <strong>exceptional quality and safety</strong>. Proficient in
+          <strong>project management, construction methodologies, material control,
+            and inspection procedures</strong>. Possess professional certifications such as
+          <strong>Lead Auditor ISO 9001:2015, Lean Six Sigma Yellow and Green Belt,
+            and PMP®</strong>. Additionally, I hold memberships and certifications from
+          recognized professional bodies including
+          <strong>Pakistan Engineering Council (Registered Engineer, ID: 31564,
+            2011)</strong>,
+          <strong>Society of Engineers UAE (Affiliated Member, ID: 33611,
+            2014)</strong>,
+          <strong>QMS Internal Auditor ISO 9001:2015 (Certificate ID:
+            TTI/INTL/1003/19/CGC, 2019)</strong>,
+          <strong>IRCA Lead Auditor Certification ISO 9001:2015 (Certification ID:
+            06724, 2021)</strong>,
+          <strong>Professional Engineer – Skill Level 1 (Engineers Australia,
+            2023)</strong>,
+          <strong>Lean Six Sigma Yellow and Green Belt (Course Training Completed,
+            2023)</strong>, and
+          <strong>Project Management Professional (PMP)® (Course Training
+            Completed, 2024)</strong>. Seeking to leverage my
+          <strong>technical skills and leadership experience</strong> to
+          contribute to challenging engineering projects and drive positive
+          outcomes.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills" id="skills">
+    <h5>Skills</h5>
+    <h3>My Expertise</h3>
+    <div class="skill-items">
+      <div class="item">
+        <div class="icon"><i class="bx bx-building"></i></div>
+        <h4>Construction Management</h4>
+        <p>
+          Extensive experience in supervising diverse construction projects,
+          including marine structures, high-rise buildings, and
+          infrastructure. Expertise in managing contractors, optimizing
+          construction methods, and ensuring adherence to design
+          specifications and quality standards.
+        </p>
+      </div>
+      <div class="item">
+        <div class="icon"><i class="bx bx-check-circle"></i></div>
+        <h4>Quality Assurance & Control</h4>
+        <p>
+          Proficient in developing and implementing quality control plans,
+          conducting audits, and ensuring compliance with international
+          standards. Skilled in overseeing material testing, reviewing project
+          documentation, and maintaining high standards of workmanship and
+          safety.
+        </p>
+      </div>
+      <div class="item">
+        <div class="icon"><i class="bx bx-task"></i></div>
+        <h4>Project Coordination</h4>
+        <p>
+          Expert in coordinating all aspects of construction projects, from
+          planning to execution. Experienced in managing interdisciplinary
+          teams, preparing detailed reports, and ensuring seamless integration
+          of design elements into project implementation.
+        </p>
+      </div>
+      <div class="item">
+        <div class="icon"><i class="bx bx-briefcase"></i></div>
+        <h4>Regulatory Compliance</h4>
+        <p>
+          In-depth knowledge of international standards and regulations for
+          marine structures, bridges, railways, and oil & gas projects. Proven
+          ability to ensure compliance with specifications and guidelines set
+          by organizations such as CIRIA, AREMA, and SHELL.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio" id="portfolio">
+    <div class="header">
+      <div class="info">
+        <h5>Recent Projects</h5>
+        <h3>My Portfolio</h3>
+      </div>
+    </div>
+
+    <div class="portfolio-items">
+      <div class="item">
+        <img src="images/Projects-Pics/Hudayriyat-Island-Abu-Dhabi-UAE.jpg"
+          alt="Hudayriyat Priority Development Area" />
+        <div class="info">
+          <h4>Hudayriyat Priority Development Area</h4>
+          <p>
+            Scope: Shoreline protection, Quay-wall, anti-scour rock
+            installation, groynes, pile pier, beach, and more.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/Projects-Pics/Shamal development project.jpg" alt="Detached Breakwaters" />
+        <div class="info">
+          <h4>Detached Breakwaters (Shamal Development Project)</h4>
+          <p>
+            Scope: Shoreline protection, detached breakwaters, rocks armour,
+            and concrete armour installation.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/Projects-Pics/Etihad Rail 2F2.webp" alt="KPO Marine Rail Bridge" />
+        <div class="info">
+          <h4>KPO Marine Rail Bridge & Railway (Etihad Rail Package 2F2)</h4>
+          <p>
+            Scope: Marine viaduct spans, marine bored piles, marine pile
+            bents, precast post-tensioned girders, spherical bearings, railway
+            earthworks, railway track, and more.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/Projects-Pics/Al-Sayyah-Residence-All.jpg" alt="Al Sayyah Residence Development" />
+        <div class="info">
+          <h4>Al Sayyah Residence Development</h4>
+          <p>
+            Scope: High-rise residential towers, swimming pools, gyms,
+            playgrounds, parking, and retail spaces.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/Projects-Pics/The Bridges Al Reem.jpg" alt="The Bridges Al Reem Development" />
+        <div class="info">
+          <h4>The Bridges Al Reem Development</h4>
+          <p>
+            Scope: High-rise residential towers, swimming pools, gyms,
+            playgrounds, parking, and retail spaces.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/Projects-Pics/Mender Conventional Oil Field.webp" alt="Mender Oil Field Development" />
+        <div class="info">
+          <h4>Mender Oil Field Development and Infrastructure Works</h4>
+          <p>
+            Scope: Oil field infrastructure, drilling wells, gathering
+            stations, pipeline construction, pipe racks, pipe sleepers.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="certifications" id="certifications">
+    <h5>Certifications & Awards</h5>
+    <h3>My Achievements</h3>
+    <div class="certification-items">
+      <div class="certification-item">
+        <img src="images/Certifications - Pics/Pakistan Engineering Council.png"
+          alt="Pakistan Engineering Council Badge" />
+        <h4>Pakistan Engineering Council Certification</h4>
+        <p>Registered Engineer (ID: 31564) – 2011.</p>
+      </div>
+      <div class="certification-item">
+        <img src="images/Certifications - Pics/Society_of_Engineers-removebg-preview.png"
+          alt="Society of Engineers UAE Badge" />
+        <h4>Society of Engineers UAE</h4>
+        <p>Affiliated Member (ID: 33611) – 2014.</p>
+      </div>
+      <div class="certification-item">
+        <img src="images/Certifications - Pics/ISO - 9001.png" alt="ISO 9001 Certification Badge" />
+        <h4>QMS Internal Auditor ISO 9001:2015</h4>
+        <p>Certificate ID: TTI/INTL/1003/19/CGC – 2019.</p>
+      </div>
+      <div class="certification-item">
+        <img src="images/Certifications - Pics/Professional_Engineer-removebg-preview.png"
+          alt="Quality Leadership Award Badge" />
+        <h4>Professional Engineer – Skill Level 1</h4>
+        <p>Engineers Australia – 2023.</p>
+      </div>
+      <div class="certification-item">
+        <img src="images/Certifications - Pics/Lean Six Sigma.png" alt="Lean Six Sigma Certification Badge" />
+        <h4>Lean Six Sigma Yellow and Green Belt</h4>
+        <p>Course Training Completed – 2023.</p>
+      </div>
+      <div class="certification-item">
+        <img src="images/Certifications - Pics/PMP Certification by PMI.png" alt="PMP Certification Badge" />
+        <h4>Project Management Professional (PMP)®</h4>
+        <p>Course Training Completed – 2024.</p>
+      </div>
+      <div class="certification-item">
+        <img src="images/Certifications - Pics/ISO - 9001.png" alt="ISO 9001 Certification Badge" />
+        <h4>IRCA Lead Auditor Certification ISO 9001:2015</h4>
+        <p>Certification ID: 06724 – 2021.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline" id="timeline">
+    <h5>Career Milestones</h5>
+    <h3>My Journey</h3>
+    <div class="timeline-container">
+      <div class="timeline-item">
+        <div class="timeline-date">2023 - Present</div>
+        <div class="timeline-content">
+          <h4>Site Manager, Applied Technology and Management Inc.</h4>
+          <p>
+            Supervised construction activities, ensuring compliance with
+            project plans, quality standards, and safety protocols. Managed
+            contractors, coordinated material deliveries, and optimized
+            construction methods. Prepared reports and coordinated all
+            disciplines and contractors.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2022</div>
+        <div class="timeline-content">
+          <h4>Civil Engineer (Lead QA/QC), PLC Contracting L.L.C.</h4>
+          <p>
+            Reviewed project documentation, developed and implemented
+            construction plans, and conducted field inspections for civil and
+            marine works. Coordinated engineering activities to ensure project
+            execution met design and specification standards.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2020 - 2022</div>
+        <div class="timeline-content">
+          <h4>
+            Civil Engineer (QA/QC), Power Construction Corporation of China
+            Ltd.
+          </h4>
+          <p>
+            Conducted field inspections, analyzed geotechnical investigations,
+            and proposed concrete mix designs. Ensured compliance with project
+            specifications, standards, and material requirements while
+            liaising with stakeholders.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2019 - 2020</div>
+        <div class="timeline-content">
+          <h4>QA/QC Engineer, Al Sahel Contracting Company LLC</h4>
+          <p>
+            Developed and implemented quality control plans, reviewed project
+            documentation, and managed quality documentation and records.
+            Prepared minutes for QHSE meetings and followed up on corrective
+            actions.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2018 - 2019</div>
+        <div class="timeline-content">
+          <h4>
+            QA/QC Civil Engineer, Construction General Contracting House Ltd.
+          </h4>
+          <p>
+            Ensured correct implementation of IFC and shop drawings,
+            coordinated construction activities, and conducted field
+            inspections to verify survey benchmarks and layouts. Managed
+            material procurement and tracking.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2016 - 2018</div>
+        <div class="timeline-content">
+          <h4>QA/QC Civil Engineer, China Harbor Engineering Company LLC</h4>
+          <p>
+            Developed construction procedures and inspection test plans,
+            supervised site engineers, and assured material testing compliance
+            with international standards. Conducted field inspections to
+            verify survey layouts and design work.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2014 - 2016</div>
+        <div class="timeline-content">
+          <h4>Civil Engineer, Al Wasel Building Contracting Est.</h4>
+          <p>
+            Supervised daily project works, conducted site inspections,
+            collaborated on project planning, and monitored construction
+            progress. Managed resources efficiently to optimize project
+            outcomes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonials" id="testimonials">
+    <h5>What Clients Say</h5>
+    <h3>Testimonials</h3>
+    <div class="testimonial-items">
+      <div class="testimonial-item">
+        <p>
+          "Babar's leadership and technical skills were instrumental in the
+          successful completion of our complex marine engineering project. His
+          expertise ensured the project was delivered on time and met the
+          highest quality standards."
+        </p>
+        <h4>Emily Thompson</h4>
+        <span>Director, Marine Engineering Group</span>
+      </div>
+      <div class="testimonial-item">
+        <p>
+          "During our collaboration, Babar showcased exceptional knowledge in
+          construction and quality management. His attention to detail and
+          proactive approach significantly contributed to the successful
+          execution of our high-rise residential development."
+        </p>
+        <h4>Michael Green</h4>
+        <span>Project Lead, Urban Builders Inc.</span>
+      </div>
+      <div class="testimonial-item">
+        <p>
+          "Babar's Inclusive understanding of marine structures & his ability
+          to integrate design elements seamlessly into project execution was
+          crucial for success of our shoreline protection project. His
+          dedication was evident throughout."
+        </p>
+        <h4>Sara Patel</h4>
+        <span>Chief Engineer, Coastal Solutions Ltd.</span>
+      </div>
+      <div class="testimonial-item">
+        <p>
+          "Working with Babar on our infrastructure projects has been a
+          pleasure. His meticulous approach to quality control and his ability
+          to address any challenges effectively ensured that our projects met
+          all specifications and standards."
+        </p>
+        <h4>David Johnson</h4>
+        <span>Construction Manager, Infrastructure Co.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="faq" id="faq">
+    <h5>Frequently Asked Questions</h5>
+    <h3>FAQ</h3>
+    <div class="faq-items">
+      <div class="faq-item">
+        <h4 class="faq-question">
+          What is your approach to managing large-scale infrastructure projects?
+          <span class="faq-toggle">+</span>
+        </h4>
+        <div class="faq-answer">
+          <p>
+            My approach involves meticulous planning, stringent quality control, and effective coordination across all
+            project phases. I prioritize adherence to international standards, ensuring that every aspect of the
+            project—from construction methodologies to material quality—is aligned with project specifications and
+            safety regulations.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h4 class="faq-question">
+          How do you ensure compliance with international standards on your projects?
+          <span class="faq-toggle">+</span>
+        </h4>
+        <div class="faq-answer">
+          <p>
+            I ensure compliance by rigorously reviewing and integrating international standards and specifications into
+            project plans. This includes conducting regular audits, quality checks, and tests according to established
+            guidelines such as CIRIA, CLI, AREMA, SHELL, and ADNOC. My extensive experience in various standards allows
+            me to maintain high-quality standards consistently.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h4 class="faq-question">
+          Can you describe your experience with marine and civil engineering projects?
+          <span class="faq-toggle">+</span>
+        </h4>
+        <div class="faq-answer">
+          <p>
+            I have substantial experience in both marine and civil engineering projects, including the construction of
+            marine structures like breakwaters, revetments, and marine bridges, as well as high-rise buildings,
+            infrastructure, and utilities. My role typically involves overseeing construction activities, ensuring
+            design accuracy, and managing quality control for various types of projects.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h4 class="faq-question">
+          What are your strategies for managing international projects effectively?
+          <span class="faq-toggle">+</span>
+        </h4>
+        <div class="faq-answer">
+          <p>
+            My strategies include understanding local regulations and cultural nuances, maintaining open communication
+            with all stakeholders, and ensuring that project plans are adaptable to regional requirements. I leverage my
+            international experience to navigate logistical challenges and ensure project success across diverse
+            geographical locations.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h4 class="faq-question">
+          How do you handle challenges related to construction materials and quality control?
+          <span class="faq-toggle">+</span>
+        </h4>
+        <div class="faq-answer">
+          <p>
+            I address challenges by implementing rigorous material testing protocols, ensuring traceability of
+            materials, and closely monitoring compliance with quality standards. This includes overseeing critical
+            material tests, reviewing supplier qualifications, and ensuring that all materials meet or exceed project
+            specifications and international standards.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h4 class="faq-question">
+          What role does your experience with quality management systems play in your work?
+          <span class="faq-toggle">+</span>
+        </h4>
+        <div class="faq-answer">
+          <p>
+            My experience with quality management systems, including ISO 9001:2015 and Lean Six Sigma, plays a crucial
+            role in ensuring that all project activities adhere to the highest standards of quality and efficiency. This
+            background allows me to implement effective quality control measures, streamline processes, and continuously
+            improve project outcomes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact" id="contact">
+    <div class="contact-container">
+      <h5>Contact</h5>
+      <h3>Contact Me</h3>
+      <p>Get in touch for inquiries or collaborations.</p>
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="bx bx-phone"></i>
+          <span>+971 50 931 2814</span>
+        </div>
+        <div class="contact-item">
+          <i class="bx bx-envelope"></i>
+          <span>
+            <a href="mailto:engr.babar90@gmail.com" class="email-link">engr.babar90@gmail.com</a>
+          </span>
+        </div>
+        <div class="contact-item">
+          <i class="bx bx-map"></i>
+          <a href="https://www.google.com/maps/place/24%C2%B029'10.9%22N+54%C2%B022'26.2%22E/@24.4863567,54.3713646,17z/data=!4m4!3m3!8m2!3d24.4863567!4d54.3739395?hl=en&entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank" class="map-link">
+            <div class="map-preview">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3630.974029491581!2d54.37136457535896!3d24.48635667817538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDI5JzEwLjkiTiA1NMKwMjInMjYuMiJF!5e0!3m2!1sen!2s!4v1724491409636!5m2!1sen!2s"
+                width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-social-icons">
+        <a data-social="Facebook" style="--accent-color:#106bff;"
+          href="https://www.facebook.com/babar.zaman.79?mibextid=LQQJ4d" target="_blank">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <title>Facebook</title>
+            <path
+              d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" />
+          </svg>
+        </a>
+        <a data-social="LinkedIn" style="--accent-color:#0077B5;"
+          href="https://www.linkedin.com/in/babar-zaman-24a97855?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+          target="_blank">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <title>LinkedIn</title>
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          </svg>
+        </a>
+        <a data-social="Whatsapp" style="--accent-color:#25D366;" href="https://wa.me/971509312814" target="_blank">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <title>WhatsApp</title>
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
